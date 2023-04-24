@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.limitar-largura{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: auto;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.btn-modo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: rgb(177, 150, 0) solid 2px;
+    border-radius: 50px;
+    padding: 6px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-modo:hover{
+    background-color: rgba(126, 124, 124, 0.306);
+}
+
+.btn-modo img{
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.banner{
+    background-image: url("../../../public/assets/banner-barbearia.jpg");
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo{
+    text-align: center;
+    padding: 60px;
+}
+
+.conteudo h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.conteudo span{
+    font-weight: bold;
+}
+
+.conteudo p{
+    margin-top: 30px;
+}
+
+.assinatura{
+    font-family: 'Great vibes', sans-serif;
+    color: rgb(177, 150, 0);
+    font-size: 30px;
+}
+
+.modo-escuro{
+    background-color: #252323;
+    color: #fff;
+}
